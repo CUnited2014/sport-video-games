@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soccer Pack Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>⚽ Soccer Pack Opener</h1>
+  </header>
+
+  <main>
+    <section class="pack-opening">
+      <button id="openPackBtn">Open a Pack</button>
+      <div id="packTopic" class="hidden"></div>
+    </section>
+
+    <section class="mini-game hidden" id="miniGame">
+      <h2>Mini Game: Click the Ball!</h2>
+      <p>Click the soccer ball 3 times to win!</p>
+      <div id="ball"></div>
+      <p>Score: <span id="score">0</span>/3</p>
+    </section>
+
+    <section class="reward hidden" id="reward">
+      <h2>You Unlocked:</h2>
+      <img id="rewardImage" src="" alt="Unlocked image"/>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
